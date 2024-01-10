@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Main Activity Renkler -->
+    <color name="BottomViewSecilen">#000000</color>
+    <color name="BottomViewSecilmeyen">#AAAAAA</color>
+
+    <!-- Custom Dialog Mesaj Gonder Renkler -->
+    <color name="MesajGonderCerceveRenk">#009688</color>
+    <color name="MesajIptalCerceveRenk">#D50000</color>
+    <color name="MesajGonderBtnResimRenk">#FFFFFF</color>
+
+    <!-- Chat Bg Renkleri -->
+    <color name="ChatBgLeftColor">#CFCFCF</color>
+    <color name="ChatBgRightColor">#474747</color>
+</resources>

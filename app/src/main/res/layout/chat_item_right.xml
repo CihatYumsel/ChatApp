@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:visibility="invisible"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#0A7A70"
+            android:id="@+id/chat_item_imgProfil"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/chat_item_txtMesaj"
+            android:background="@drawable/chat_item_bg_right"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="3dp"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="3dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/chat_item_bg_right"
+            android:id="@+id/chat_item_imgResim"
+            android:onClick="btnResimAc"/>
+
+        <ProgressBar
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignLeft="@id/chat_item_imgResim"
+            android:layout_alignRight="@id/chat_item_imgResim"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/white"
+            android:id="@+id/chat_item_progress"/>
+
+<!--        <androidx.constraintlayout.utils.widget.ImageFilterButton-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginRight="3dp"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            android:id="@+id/chat_item_imgGoruldu"/>-->
+
+    </RelativeLayout>
+
+</RelativeLayout>
